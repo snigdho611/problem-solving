@@ -1,0 +1,1 @@
+select name from customers where rank = 'RS'
