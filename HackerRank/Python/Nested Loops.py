@@ -29,5 +29,3 @@ for i in range(len(list_)):
 namelist = sorted(namelist)
 for i in range(len(namelist)):
     print(namelist[i])
-
-print(min, secMin)
