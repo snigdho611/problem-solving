@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+#include<cstdio>
 #include<string.h>
 
 int main()
