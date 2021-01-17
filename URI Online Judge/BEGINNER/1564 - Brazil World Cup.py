@@ -7,3 +7,4 @@ while True:
             print("vai ter copa!")
     except EOFError:
         break    
+
