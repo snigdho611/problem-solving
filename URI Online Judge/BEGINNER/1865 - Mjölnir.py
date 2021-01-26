@@ -8,3 +8,4 @@ for i in range(test):
         print("Y")
     else: 
         print("N")
+
