@@ -7,21 +7,13 @@ class Solution
 public:
     int removeDuplicates(vector<int> &nums)
     {
-        if (nums.size() == 0)
-        {
-            return nums.size();
-        }
+        int i = 0;
 
-        int index = 0;
+        for (const int num : nums)
+        if (i < 2 || num > nums[i - 2])
+            nums[i++] = num;
 
-        for (int i = 0; i < nums.size(); i++)
-        {
-            if(nums[index] != nums[i]){
-                index++;
-                nums[index] = nums[i];
-            }
-        }
-        return index+1;
+        return i;
     }
 };
 

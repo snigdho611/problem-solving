@@ -11,7 +11,7 @@ public:
         for (int i = 0; i < s.length(); i++)
         {
             if (
-                (char(s[i]) >= 48 && char(s[i]) <= 39) || (char(s[i]) >= 65 && char(s[i]) <= 90) || (char(s[i]) >= 97 && char(s[i]) <= 122))
+                (char(s[i]) >= 48 && char(s[i]) <= 57) || (char(s[i]) >= 65 && char(s[i]) <= 90) || (char(s[i]) >= 97 && char(s[i]) <= 122))
             {
                 input.push_back(tolower(s[i]));
             }
@@ -27,10 +27,11 @@ public:
                 matchCount++;
             }
         }
-        cout << matchCount << ", " << charCount;
+
+        cout << matchCount << ", " << charCount << endl;
         for (int i : input)
         {
-            cout << char(i) << ",";
+            cout << "Output: " << i << endl;
         }
 
         if (matchCount == charCount)
