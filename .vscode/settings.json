@@ -90,6 +90,10 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "xstring": "cpp",
+        "stack": "cpp",
+        "xlocinfo": "cpp",
+        "xtree": "cpp"
     }
 }
